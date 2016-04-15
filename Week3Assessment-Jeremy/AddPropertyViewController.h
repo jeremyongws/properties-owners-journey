@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AddPropertyViewController.h
 //  Week3Assessment-Jeremy
 //
 //  Created by Jeremy Ong on 15/04/2016.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Owner.h"
 
-@interface ViewController : UIViewController
+@interface AddPropertyViewController : UIViewController
 
+@property Owner *owner;
 
 @end
-

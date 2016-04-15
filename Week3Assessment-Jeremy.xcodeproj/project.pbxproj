@@ -7,27 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FD87FB21CC084EE00A12844 /* PropertiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD87FB11CC084EE00A12844 /* PropertiesViewController.m */; };
+		3FD87FB61CC0892C00A12844 /* AddPropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD87FB51CC0892C00A12844 /* AddPropertyViewController.m */; };
+		3FD87FB91CC089D800A12844 /* EditPropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD87FB81CC089D800A12844 /* EditPropertyViewController.m */; };
 		3FFE0EEB1CC07CEE00DF0191 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE0EEA1CC07CEE00DF0191 /* main.m */; };
 		3FFE0EEE1CC07CEE00DF0191 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE0EED1CC07CEE00DF0191 /* AppDelegate.m */; };
-		3FFE0EF11CC07CEE00DF0191 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE0EF01CC07CEE00DF0191 /* ViewController.m */; };
+		3FFE0EF11CC07CEE00DF0191 /* OwnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE0EF01CC07CEE00DF0191 /* OwnerViewController.m */; };
 		3FFE0EF41CC07CEE00DF0191 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE0EF21CC07CEE00DF0191 /* Main.storyboard */; };
 		3FFE0EF71CC07CEE00DF0191 /* Week3Assessment_Jeremy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE0EF51CC07CEE00DF0191 /* Week3Assessment_Jeremy.xcdatamodeld */; };
 		3FFE0EF91CC07CEE00DF0191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE0EF81CC07CEE00DF0191 /* Assets.xcassets */; };
 		3FFE0EFC1CC07CEE00DF0191 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE0EFA1CC07CEE00DF0191 /* LaunchScreen.storyboard */; };
+		3FFE0F0B1CC07DF000DF0191 /* Properties+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE0F041CC07DF000DF0191 /* Properties+CoreDataProperties.m */; };
+		3FFE0F0C1CC07DF000DF0191 /* Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE0F061CC07DF000DF0191 /* Properties.m */; };
+		3FFE0F0D1CC07DF000DF0191 /* Owner+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE0F081CC07DF000DF0191 /* Owner+CoreDataProperties.m */; };
+		3FFE0F0E1CC07DF000DF0191 /* Owner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE0F0A1CC07DF000DF0191 /* Owner.m */; };
+		3FFE0F141CC07FD900DF0191 /* ownerList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE0F131CC07FD900DF0191 /* ownerList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FD87FB01CC084EE00A12844 /* PropertiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertiesViewController.h; sourceTree = "<group>"; };
+		3FD87FB11CC084EE00A12844 /* PropertiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertiesViewController.m; sourceTree = "<group>"; };
+		3FD87FB41CC0892C00A12844 /* AddPropertyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPropertyViewController.h; sourceTree = "<group>"; };
+		3FD87FB51CC0892C00A12844 /* AddPropertyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPropertyViewController.m; sourceTree = "<group>"; };
+		3FD87FB71CC089D800A12844 /* EditPropertyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditPropertyViewController.h; sourceTree = "<group>"; };
+		3FD87FB81CC089D800A12844 /* EditPropertyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPropertyViewController.m; sourceTree = "<group>"; };
 		3FFE0EE61CC07CEE00DF0191 /* Week3Assessment-Jeremy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week3Assessment-Jeremy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFE0EEA1CC07CEE00DF0191 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FFE0EEC1CC07CEE00DF0191 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3FFE0EED1CC07CEE00DF0191 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3FFE0EEF1CC07CEE00DF0191 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3FFE0EF01CC07CEE00DF0191 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FFE0EEF1CC07CEE00DF0191 /* OwnerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OwnerViewController.h; sourceTree = "<group>"; };
+		3FFE0EF01CC07CEE00DF0191 /* OwnerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OwnerViewController.m; sourceTree = "<group>"; };
 		3FFE0EF31CC07CEE00DF0191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FFE0EF61CC07CEE00DF0191 /* Week3Assessment_Jeremy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Week3Assessment_Jeremy.xcdatamodel; sourceTree = "<group>"; };
 		3FFE0EF81CC07CEE00DF0191 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FFE0EFB1CC07CEE00DF0191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FFE0EFD1CC07CEE00DF0191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFE0F031CC07DF000DF0191 /* Properties+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Properties+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3FFE0F041CC07DF000DF0191 /* Properties+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Properties+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3FFE0F051CC07DF000DF0191 /* Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Properties.h; sourceTree = "<group>"; };
+		3FFE0F061CC07DF000DF0191 /* Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Properties.m; sourceTree = "<group>"; };
+		3FFE0F071CC07DF000DF0191 /* Owner+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Owner+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3FFE0F081CC07DF000DF0191 /* Owner+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Owner+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3FFE0F091CC07DF000DF0191 /* Owner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Owner.h; sourceTree = "<group>"; };
+		3FFE0F0A1CC07DF000DF0191 /* Owner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Owner.m; sourceTree = "<group>"; };
+		3FFE0F131CC07FD900DF0191 /* ownerList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ownerList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +64,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FD87FB31CC084F600A12844 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FFE0EEF1CC07CEE00DF0191 /* OwnerViewController.h */,
+				3FFE0EF01CC07CEE00DF0191 /* OwnerViewController.m */,
+				3FD87FB71CC089D800A12844 /* EditPropertyViewController.h */,
+				3FD87FB81CC089D800A12844 /* EditPropertyViewController.m */,
+				3FD87FB41CC0892C00A12844 /* AddPropertyViewController.h */,
+				3FD87FB51CC0892C00A12844 /* AddPropertyViewController.m */,
+				3FD87FB01CC084EE00A12844 /* PropertiesViewController.h */,
+				3FD87FB11CC084EE00A12844 /* PropertiesViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		3FFE0EDD1CC07CEE00DF0191 = {
 			isa = PBXGroup;
 			children = (
@@ -60,14 +98,13 @@
 		3FFE0EE81CC07CEE00DF0191 /* Week3Assessment-Jeremy */ = {
 			isa = PBXGroup;
 			children = (
-				3FFE0EEC1CC07CEE00DF0191 /* AppDelegate.h */,
-				3FFE0EED1CC07CEE00DF0191 /* AppDelegate.m */,
-				3FFE0EEF1CC07CEE00DF0191 /* ViewController.h */,
-				3FFE0EF01CC07CEE00DF0191 /* ViewController.m */,
+				3FFE0F0F1CC07DF400DF0191 /* Models */,
+				3FD87FB31CC084F600A12844 /* Controllers */,
 				3FFE0EF21CC07CEE00DF0191 /* Main.storyboard */,
 				3FFE0EF81CC07CEE00DF0191 /* Assets.xcassets */,
 				3FFE0EFA1CC07CEE00DF0191 /* LaunchScreen.storyboard */,
 				3FFE0EFD1CC07CEE00DF0191 /* Info.plist */,
+				3FFE0F131CC07FD900DF0191 /* ownerList.plist */,
 				3FFE0EF51CC07CEE00DF0191 /* Week3Assessment_Jeremy.xcdatamodeld */,
 				3FFE0EE91CC07CEE00DF0191 /* Supporting Files */,
 			);
@@ -77,9 +114,26 @@
 		3FFE0EE91CC07CEE00DF0191 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3FFE0EEC1CC07CEE00DF0191 /* AppDelegate.h */,
+				3FFE0EED1CC07CEE00DF0191 /* AppDelegate.m */,
 				3FFE0EEA1CC07CEE00DF0191 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FFE0F0F1CC07DF400DF0191 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FFE0F031CC07DF000DF0191 /* Properties+CoreDataProperties.h */,
+				3FFE0F041CC07DF000DF0191 /* Properties+CoreDataProperties.m */,
+				3FFE0F051CC07DF000DF0191 /* Properties.h */,
+				3FFE0F061CC07DF000DF0191 /* Properties.m */,
+				3FFE0F071CC07DF000DF0191 /* Owner+CoreDataProperties.h */,
+				3FFE0F081CC07DF000DF0191 /* Owner+CoreDataProperties.m */,
+				3FFE0F091CC07DF000DF0191 /* Owner.h */,
+				3FFE0F0A1CC07DF000DF0191 /* Owner.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +195,7 @@
 			files = (
 				3FFE0EFC1CC07CEE00DF0191 /* LaunchScreen.storyboard in Resources */,
 				3FFE0EF91CC07CEE00DF0191 /* Assets.xcassets in Resources */,
+				3FFE0F141CC07FD900DF0191 /* ownerList.plist in Resources */,
 				3FFE0EF41CC07CEE00DF0191 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,10 +207,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FFE0EF11CC07CEE00DF0191 /* ViewController.m in Sources */,
+				3FFE0F0B1CC07DF000DF0191 /* Properties+CoreDataProperties.m in Sources */,
+				3FFE0EF11CC07CEE00DF0191 /* OwnerViewController.m in Sources */,
+				3FFE0F0D1CC07DF000DF0191 /* Owner+CoreDataProperties.m in Sources */,
+				3FFE0F0C1CC07DF000DF0191 /* Properties.m in Sources */,
 				3FFE0EEE1CC07CEE00DF0191 /* AppDelegate.m in Sources */,
+				3FFE0F0E1CC07DF000DF0191 /* Owner.m in Sources */,
+				3FD87FB91CC089D800A12844 /* EditPropertyViewController.m in Sources */,
 				3FFE0EEB1CC07CEE00DF0191 /* main.m in Sources */,
+				3FD87FB61CC0892C00A12844 /* AddPropertyViewController.m in Sources */,
 				3FFE0EF71CC07CEE00DF0191 /* Week3Assessment_Jeremy.xcdatamodeld in Sources */,
+				3FD87FB21CC084EE00A12844 /* PropertiesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +368,7 @@
 				3FFE0F021CC07CEE00DF0191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
